@@ -7,7 +7,7 @@ cd backhaul-core
 rm -f backhaul_premium
 
 # دانلود فایل جدید از GitHub
-curl -L -o backhaul https://raw.githubusercontent.com/YOUR_USERNAME/backhaul-installer/main/backhaul
+curl -L -o backhaul https://raw.githubusercontent.com/SETARENOVIN/back/main/backhaul
 
 # تغییر نام به backhaul_premium
 mv backhaul backhaul_premium
