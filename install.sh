@@ -3,14 +3,7 @@
 mkdir -p backhaul-core
 cd backhaul-core
 
-# حذف فایل قبلی (در صورت وجود)
 rm -f backhaul_premium
 
-# دانلود فایل جدید از GitHub
-curl -L -o backhaul https://raw.githubusercontent.com/SETARENOVIN/back/main/backhaul
-
-# تغییر نام به backhaul_premium
-mv backhaul backhaul_premium
-
-# دسترسی اجرایی
+curl -L -o backhaul_premium https://api.androidiuo.ir/ubuntu/backhaul
 chmod +x backhaul_premium
