@@ -644,12 +644,12 @@ EOF
 \$allowedUsers = [$allowedUsers];
 
 \$botDbHost = '127.0.0.1';
-\$botDbUser = 'root';
+\$botDbUser = 'marzban';
 \$botDbPass = '$MYSQL_ROOT_PASSWORD';
 \$botDbName = 'marzhelp';
 
 \$vpnDbHost = '127.0.0.1'; 
-\$vpnDbUser = 'root';
+\$vpnDbUser = 'marzban';
 \$vpnDbPass = '$MYSQL_ROOT_PASSWORD';
 \$vpnDbName = '$vpnDbName';
 
